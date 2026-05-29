@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirection</title>
+    <script>
+      // Redirection pour les SPA sur GitHub Pages
+      const path = location.pathname.split('/').pop() || 'index.html';
+      const base = location.pathname.includes('/portfolio/') ? '/portfolio/' : '/';
+      location.replace(base + '?redirect=' + encodeURIComponent(location.pathname));
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
