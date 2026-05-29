@@ -78,3 +78,47 @@ section {
   section { padding: 3rem 0; }
   .section-title { font-size: 1.5rem; }
 }
+
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  *, *::before, *::after {
+    box-shadow: none !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    color: inherit !important;
+  }
+
+  nav,
+  .hero-actions,
+  .hero-scroll,
+  footer,
+  .btn-primary,
+  .btn-outline {
+    display: none !important;
+  }
+
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  section {
+    padding: 1rem 0 !important;
+    page-break-inside: avoid;
+  }
+
+  .hero {
+    min-height: auto !important;
+  }
+
+  .hero-text,
+  .hero-badges,
+  .section-title,
+  .badge {
+    color: #000 !important;
+  }
+}

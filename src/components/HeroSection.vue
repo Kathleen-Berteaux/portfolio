@@ -1,5 +1,6 @@
 <script setup>
 const scrollTo = (id) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+const downloadCV = () => window.print()
 </script>
 
 <template>
@@ -16,6 +17,7 @@ const scrollTo = (id) => document.getElementById(id)?.scrollIntoView({ behavior:
         <div class="hero-actions">
           <button class="btn-primary" @click="scrollTo('experiences')">Voir mon parcours</button>
           <button class="btn-outline" @click="scrollTo('contact')">Me contacter</button>
+          <button class="btn-outline" @click="downloadCV">Télécharger mon CV (PDF)</button>
         </div>
         <div class="hero-badges">
           <span class="badge">📍 Schiltigheim, France</span>
