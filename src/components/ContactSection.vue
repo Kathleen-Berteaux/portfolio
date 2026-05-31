@@ -2,8 +2,7 @@
 const contacts = [
   { icon: '📞', label: 'Téléphone', value: '06.65.94.56.02', href: 'tel:0665945602' },
   { icon: '✉️', label: 'Email', value: 'berteaux.kathleen@gmail.com', href: 'mailto:berteaux.kathleen@gmail.com' },
-  { icon: '📍', label: 'Adresse', value: '5A, rue du Maire Sorgus\n67300 Schiltigheim', href: null },
-]
+  ]
 </script>
 
 <template>
@@ -14,13 +13,13 @@ const contacts = [
       <div class="contact-layout">
         <div class="contact-intro">
           <h3>Travaillons ensemble</h3>
-          <p>
-            Disponible pour toute opportunité professionnelle en coordination administrative,
-            assistanat de direction ou gestion de projets. N'hésitez pas à me contacter.
+          <p>N'hésitez pas à me contacter afin que nous puissions faire un point sur les problématiques 
+          que vous rencontrez et les besoins en terme administratifs que vous avez. 
+          Je saurai trouver les actions à mettre en place afin de travailler de manière efficiente à votre réussite.
           </p>
           <div class="availability">
             <span class="dot"></span>
-            <span>Disponible et en poste à Strasbourg</span>
+            <span>Disponible sur toute la France et la Suisse</span>
           </div>
         </div>
 

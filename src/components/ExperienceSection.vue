@@ -12,7 +12,11 @@ const experiences = [
       'Interface avec les clients : gestion des échanges téléphoniques et e-mails',
       'Suivi rigoureux des dossiers administratifs et mise à jour des documents',
     ],
-    highlight: null,
+    highlight:
+      'Mise en place des tableaux de suivi concernant les commandes et la facturation pour une gestion efficiente des dossiers clients',
+      'Classement des dossiers ayant permis de faire apparaitre une perte de chiffre d\'affaires de 70K avec la mise en place d\'actions rétablissant cette situation',
+      'Mise en avant de nombreux impayés et relances faites auprès des clients',
+    ],
   },
   {
     title: 'Assistante du Directeur de projets',
@@ -44,8 +48,7 @@ const experiences = [
       'Interface avec les interlocuteurs internes et externes',
       'Gestion des fournitures administratives',
     ],
-    highlight: null,
-    achievements: [
+    highlight:
       'Formation de 3 assistantes, contribuant à la montée en compétence du service',
       'Mise en place de courriers types → gain de temps significatif',
       'Organisation de dispositifs terrain ("tours de ville") → amélioration de la qualité de service',

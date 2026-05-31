@@ -20,9 +20,9 @@ const diplomas = [
 </script>
 
 <template>
-  <section id="formation" class="education-section">
+  <section id="formations" class="education-section">
     <div class="container">
-      <h2 class="section-title">Formation</h2>
+      <h2 class="section-title">Formations</h2>
 
       <div class="education-grid">
         <div v-for="d in diplomas" :key="d.degree" class="edu-card">
@@ -44,8 +44,7 @@ const diplomas = [
         <div>
           <h3>Formation continue</h3>
           <p>
-            Mise à jour régulière des compétences logicielles (Dolibarr, Horizon, Caméléon)
-            et adaptation continue aux outils métiers dans les secteurs public et privé.
+            Mise à jour régulière des compétences logicielles et adaptation continue aux outils métiers.
           </p>
         </div>
       </div>
