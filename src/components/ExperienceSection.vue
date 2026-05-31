@@ -12,7 +12,7 @@ const experiences = [
       'Interface avec les clients : gestion des échanges téléphoniques et e-mails',
       'Suivi rigoureux des dossiers administratifs et mise à jour des documents',
     ],
-    highlight:
+    achievements: [
       'Mise en place des tableaux de suivi concernant les commandes et la facturation pour une gestion efficiente des dossiers clients',
       'Classement des dossiers ayant permis de faire apparaitre une perte de chiffre d\'affaires de 70K avec la mise en place d\'actions rétablissant cette situation',
       'Mise en avant de nombreux impayés et relances faites auprès des clients',
@@ -48,7 +48,7 @@ const experiences = [
       'Interface avec les interlocuteurs internes et externes',
       'Gestion des fournitures administratives',
     ],
-    highlight:
+    achievements: [
       'Formation de 3 assistantes, contribuant à la montée en compétence du service',
       'Mise en place de courriers types → gain de temps significatif',
       'Organisation de dispositifs terrain ("tours de ville") → amélioration de la qualité de service',
@@ -99,8 +99,7 @@ const extras = [
               <em>{{ exp.highlight }}</em>
             </div>
 
-            <div v-if="exp.achievements" class="achievements">
-              <p class="achievements-title">Réalisations clés :</p>
+            <div v-if="exp.achievements" class="achievements highlight-box">
               <ul>
                 <li v-for="a in exp.achievements" :key="a">{{ a }}</li>
               </ul>
@@ -285,36 +284,28 @@ const extras = [
   margin-top: 0.75rem;
 }
 
-.achievements-title {
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--primary);
-  margin-bottom: 0.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
 .achievements ul {
   list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  margin: 0;
 }
 
 .achievements li {
   font-size: 0.85rem;
   color: var(--text-light);
-  padding-left: 1.2rem;
+  padding-left: 1.5rem;
   position: relative;
   font-style: italic;
 }
 
 .achievements li::before {
-  content: '—';
+  content: '✨';
   position: absolute;
   left: 0;
-  color: var(--primary-light);
+  color: var(--primary);
 }
 
 .extras-block {
