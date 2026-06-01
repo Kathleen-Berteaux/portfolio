@@ -7,15 +7,15 @@ const downloadCV = () => window.print()
   <section id="accueil" class="hero">
     <div class="container hero-inner">
       <div class="hero-text">
-        <p class="hero-subtitle">Assistante de Gestion</p>
+        <p class="hero-subtitle">Assistante de gestion ADV</p>
         <h1 class="hero-name">Kathleen<br>Berteaux</h1>
         <p class="hero-desc">
-          Assistante de direction expérimentée, spécialisée en coordination administrative
-          et suivi de projets, avec une expérience significative dans les secteurs public et privé.
-          Reconnue pour l'optimisation des processus et la gestion simultanée de dossiers complexes.
+          J'accompagne les TPE et PME dans l'administration des ventes et la gestion commerciale.
+          Je sécurise le suivi des commandes, optimise la facturation et facilite la relation clients
+          pour alléger vos équipes et fiabiliser votre trésorerie.
         </p>
         <div class="hero-actions">
-          <button class="btn-primary" @click="scrollTo('experiences')">Voir mon parcours</button>
+          <button class="btn-primary" @click="scrollTo('competences')">Découvrir mes compétences</button>
           <button class="btn-outline" @click="scrollTo('contact')">Me contacter</button>
           <button class="btn-outline" @click="downloadCV">Télécharger mon CV (PDF)</button>
         </div>

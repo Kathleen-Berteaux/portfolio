@@ -1,31 +1,31 @@
 <script setup>
 const skills = [
-  { icon: '📋', title: 'Coordination administrative', desc: 'Gestion d\'agendas complexes, organisation de réunions, suivi des dossiers administratifs.' },
-  { icon: '📁', title: 'Suivi de projets', desc: 'Gestion multi-dossiers, suivi opérationnel de projets, mise à jour des données de chantier.' },
-  { icon: '📝', title: 'Gestion documentaire', desc: 'Rédaction professionnelle, archivage, mise en ligne de documents techniques et officiels.' },
-  { icon: '🤝', title: 'Relation clients / usagers', desc: 'Interface téléphonique et e-mail, gestion des priorités, accueil et traitement des demandes.' },
-  { icon: '💰', title: 'Facturation & suivi financier', desc: 'Création de bons de commande, contrôle et émission de factures, suivi des commandes.' },
-  { icon: '⚙️', title: 'Optimisation des processus', desc: 'Amélioration organisationnelle, mise en place de courriers types, formation d\'assistantes.' },
+  { icon: '📋', title: 'Administration des ventes', desc: 'Traitement des commandes, suivi des expéditions et gestion des délais pour sécuriser le chiffre d\'affaires.' },
+  { icon: '💰', title: 'Facturation & relances', desc: 'Émission de factures, contrôle des paiements et relances structurées pour améliorer la trésorerie.' },
+  { icon: '🤝', title: 'Relation clients & fournisseurs', desc: 'Interface professionnelle, suivi des demandes, validation des accords et gestion des priorités.' },
+  { icon: '📁', title: 'Gestion documentaire ADV', desc: 'Archivage, classement des dossiers commerciaux et mise à jour des documents contractuels.' },
+  { icon: '⚙️', title: 'Optimisation de process', desc: 'Mise en place de procédures simples et efficaces pour réduire les erreurs et gagner en réactivité.' },
+  { icon: '🧩', title: 'Support aux TPE/PME', desc: 'Accompagnement opérationnel sur mesure pour libérer les dirigeants des tâches administratives.' },
 ]
 
 const tools = [
-  { name: 'Pack Office', level: 85 },
+  { name: 'Pack Office', level: 95 },
   { name: 'Outlook', level: 95 },
   { name: 'Dolibarr', level: 85 },
   { name: 'Horizon', level: 80 },
   { name: 'Caméléon', level: 80 },
-  { name: 'Elise', level: 75 },
-  { name: '4D', level: 75 },
-  { name: 'Virtuose / E-atal', level: 70 },
+  { name: 'CRM / ERP', level: 85 },
+  { name: 'Facturation', level: 90 },
+  { name: 'Outils collaboratifs', level: 80 },
 ]
 
 const qualities = [
   { icon: '😊', label: 'Sociable' },
   { icon: '🎯', label: 'Rigoureuse' },
   { icon: '🗂️', label: 'Organisée' },
-  { icon: '💬', label: 'Sens des relations' },
-  { icon: '🔄', label: 'Capacité d\'adaptation' },
-  { icon: '☎️', label: 'Gestion des appels' },
+  { icon: '💬', label: 'Sens du service' },
+  { icon: '🔄', label: 'Adaptabilité' },
+  { icon: '☎️', label: 'Réactivité' },
 ]
 </script>
 

@@ -13,13 +13,14 @@ const contacts = [
       <div class="contact-layout">
         <div class="contact-intro">
           <h3>Travaillons ensemble</h3>
-          <p>N'hésitez pas à me contacter afin que nous puissions faire un point sur les problématiques 
-          que vous rencontrez et les besoins en terme administratifs que vous avez. 
-          Je saurai trouver les actions à mettre en place afin de travailler de manière efficiente à votre réussite.
+          <p>
+            Vous êtes une TPE ou une PME et vous souhaitez fiabiliser votre administration des ventes ?
+            Je propose un soutien ADV sur mesure : prise en charge des commandes, facturation, relances
+            et suivi client pour alléger vos équipes et sécuriser votre trésorerie.
           </p>
           <div class="availability">
             <span class="dot"></span>
-            <span>Disponible sur toute la France et la Suisse</span>
+            <span>Disponible pour les TPE/PME en France et en Suisse</span>
           </div>
         </div>
 

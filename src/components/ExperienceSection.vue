@@ -67,6 +67,11 @@ const extras = [
   <section id="experiences">
     <div class="container">
       <h2 class="section-title">Expériences Professionnelles</h2>
+      <p class="section-intro">
+        Accompagnement de petites et moyennes structures dans l'administration des ventes, le suivi client
+        et la gestion commerciale. Mon expérience opérationnelle permet d'apporter un soutien concret
+        aux dirigeants et d'améliorer la fiabilité des processus ADV.
+      </p>
 
       <div class="timeline">
         <div
