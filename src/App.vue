@@ -10,7 +10,7 @@ import FooterSection from './components/FooterSection.vue'
 
 const activeSection = ref('accueil')
 
-const sections = ['accueil', 'competences', 'experiences', 'formation', 'contact']
+const sections = ['accueil', 'competences', 'experiences', 'formations', 'contact']
 
 const handleScroll = () => {
   const scrollY = window.scrollY + 100

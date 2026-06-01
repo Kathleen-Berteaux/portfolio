@@ -9,7 +9,7 @@ const skills = [
 ]
 
 const tools = [
-  { name: 'Pack Office', level: 95 },
+  { name: 'Pack Office', level: 85 },
   { name: 'Outlook', level: 95 },
   { name: 'Dolibarr', level: 85 },
   { name: 'Horizon', level: 80 },
